@@ -1,0 +1,1603 @@
+{
+  "categories": [
+    {
+      "name": "Navigateurs",
+      "icon": "🌐",
+      "apps": [
+        {
+          "name": "Mozilla Firefox",
+          "packageId": "Mozilla.Firefox",
+          "description": "Navigateur open source par la Mozilla Foundation. Bloque les traqueurs, extensions. Note: télémétrie activée par défaut, désactivable dans Paramètres > Vie privée > Télémétrie.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Mozilla_Firefox.png",
+          "category": "Navigateurs",
+          "website": "https://www.mozilla.org/firefox/",
+          "docs": "https://support.mozilla.org/fr/kb/get-started-firefox"
+        },
+        {
+          "name": "LibreWolf",
+          "packageId": "LibreWolf.LibreWolf",
+          "description": "Fork de Firefox axé sur la vie privée et la sécurité. Aucune télémétrie, uBlock Origin pré-installé, configuration durcie. Basé sur la dernière version ESR de Firefox, sans intégrations Mozilla.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/LibreWolf_LibreWolf.png",
+          "category": "Navigateurs",
+          "website": "https://librewolf.net",
+          "docs": "https://librewolf.net/docs/faq/"
+        },
+        {
+          "name": "Tor Browser",
+          "packageId": "TorProject.TorBrowser",
+          "description": "Navigateur pour navigation anonyme via le réseau Tor. Chiffre le trafic en 3 couches (onion routing), bloque les traqueurs, résiste à la censure. Basé sur Firefox ESR avec NoScript inclus.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/TorProject_TorBrowser.png",
+          "category": "Navigateurs",
+          "website": "https://www.torproject.org",
+          "docs": "https://support.torproject.org/tor-browser/"
+        },
+        {
+          "name": "Waterfox",
+          "packageId": "Waterfox.Waterfox",
+          "description": "Fork de Firefox orienté confidentialité. Supprime la télémétrie et les expériences, supporte les anciens extensions XUL. Basé sur Firefox ESR, compilé pour 64-bit uniquement.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Waterfox.png",
+          "category": "Navigateurs",
+          "website": "https://www.waterfox.net",
+          "docs": "https://www.waterfox.com/support/"
+        },
+        {
+          "name": "Pale Moon",
+          "packageId": "Moonchild.PaleMoon",
+          "description": "Navigateur open source basé sur le moteur Gecko (ancienne branche). Léger en RAM, supporte les extensions classiques XUL. Idéal pour les machines anciennes, développement indépendant.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Moonchild_PaleMoon.png",
+          "category": "Navigateurs",
+          "website": "https://www.palemoon.org",
+          "docs": "https://forum.palemoon.org/"
+        },
+        {
+          "name": "Floorp",
+          "packageId": "Ablaze.Floorp",
+          "description": "Navigateur basé sur Firefox avec interface très personnalisable. Barre d'outils modulable, espace de travail, conteneurs de navigation, sidebar web. Basé sur la branche ESR de Firefox.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Ablaze_Floorp.png",
+          "category": "Navigateurs",
+          "website": "https://floorp.app",
+          "docs": "https://floorp.app/docs/"
+        },
+        {
+          "name": "Ungoogled Chromium",
+          "packageId": "niclas.UngoogledChromium",
+          "description": "Fork de Chromium sans aucune intégration Google. Supprime la télémétrie, les services web Google, les mises à jour auto. Navigation pure sans dépendance Google.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/niclas_UngoogledChromium.png",
+          "category": "Navigateurs",
+          "website": "https://github.com/niclas/niclas.github.io",
+          "docs": "https://github.com/niclas/niclas.github.io"
+        }
+      ]
+    },
+    {
+      "name": "Communication",
+      "icon": "💬",
+      "apps": [
+        {
+          "name": "Telegram Desktop",
+          "packageId": "Telegram.TelegramDesktop",
+          "description": "Messagerie rapide avec chiffrement. Canaux publics, groupes, bots. Note: les messages standard ne SONT PAS chiffrés de bout en bout — utilisez \"Discussions secrètes\" pour la confidentialité.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Telegram_TelegramDesktop.png",
+          "category": "Communication",
+          "website": "https://telegram.org",
+          "docs": "https://telegram.org/fr"
+        },
+        {
+          "name": "Signal",
+          "packageId": "Signal.Signal",
+          "description": "Messagerie chiffrée de bout en bout par défaut. Protocole Signal inventé par Open Whisper Systems. Appels vidéo sécurisés, réactions, réponses, messages éphémères. Aucune donnée collectée.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Signal_Signal.png",
+          "category": "Communication",
+          "website": "https://signal.org",
+          "docs": "https://signal.org/fr/support/"
+        },
+        {
+          "name": "Element (Matrix)",
+          "packageId": "Element.Element",
+          "description": "Client décentralisé basé sur le protocole Matrix. Chiffrement de bout en bout, hébergement de données auto-hébergeable, ponts vers Slack/Discord/IRC. Standard ouvert, pas de lock-in.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Element_Element.png",
+          "category": "Communication",
+          "website": "https://element.io",
+          "docs": "https://element.io/help"
+        },
+        {
+          "name": "Mattermost",
+          "packageId": "Mattermost.MattermostDesktop",
+          "description": "Plateforme de collaboration open source, alternative à Slack. Chat en équipes, intégrations DevOps, auto-hébergeable, conformité RGPD. Version gratuite communautaire disponible.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Mattermost_MattermostDesktop.png",
+          "category": "Communication",
+          "website": "https://mattermost.com",
+          "docs": "https://docs.mattermost.com/"
+        },
+        {
+          "name": "Jitsi Meet",
+          "packageId": "Jitsi.JitsiMeet",
+          "description": "Visioconférence open source gratuite. Pas de compte requis, chiffrement E2EE, partage d'écran, chat, enregistrement. Auto-hébergeable, utilisé par des entreprises.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Jitsi_JitsiMeet.png",
+          "category": "Communication",
+          "website": "https://jitsi.org",
+          "docs": "https://jitsi.github.io/handbook/"
+        },
+        {
+          "name": "Mumble",
+          "packageId": "Mumble.Mumble",
+          "description": "VoIP open source à faible latence pour gamers. Chiffrement, serveurs auto-hébergeables, positionnement 3D audio, permissions utilisateurs. Alternatif léger à Discord.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Mumble_Mumble.png",
+          "category": "Communication",
+          "website": "https://www.mumble.info",
+          "docs": "https://www.mumble.info/documentation/"
+        },
+        {
+          "name": "Linphone",
+          "packageId": "Belledonne.Linphone",
+          "description": "Client VoIP open source compatible SIP. Appels audio/vidéo gratuits, messagerie, chiffrement. Standard SIP, auto-hébergeable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Belledonne_Linphone.png",
+          "category": "Communication",
+          "website": "https://www.linphone.org",
+          "docs": "https://www.linphone.org/technical-corner/liblinphone"
+        },
+        {
+          "name": "Revolt",
+          "packageId": "Revolt.Revolt",
+          "description": "Alternative open source à Discord. Serveurs, salons, vocal, bots, plugins. Interface moderne, chiffré, auto-hébergeable. Projet communautaire actif.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Revolt_Revolt.png",
+          "category": "Communication",
+          "website": "https://revolt.chat",
+          "docs": "https://revolt.chat/"
+        },
+        {
+          "name": "Jami",
+          "packageId": "SavoirfaireLinux.Jami",
+          "description": "Messagerie et visioconférence P2P chiffrée. Aucun serveur central, aucune donnée collectée. Appels audio/vidéo, messagerie, partage de fichiers. 100% décentralisé.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/SavoirfaireLinux_Jami.png",
+          "category": "Communication",
+          "website": "https://jami.net",
+          "docs": "https://jami.net/faq/"
+        },
+        {
+          "name": "Tox",
+          "packageId": "Tox.Tox",
+          "description": "Messagerie P2P chiffrée. Aucun serveur, décentralisée, protocole open source. Messages, appels, visio, partage de fichiers. Alternatif à WhatsApp/Discord.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Tox_Tox.png",
+          "category": "Communication",
+          "website": "https://tox.chat",
+          "docs": "https://tox.chat/"
+        },
+        {
+          "name": "Nextcloud Talk",
+          "packageId": "Nextcloud.Talk",
+          "description": "Visioconférence et messagerie intégrée à Nextcloud. Chiffré E2EE, partage de fichiers, écran, enregistrement. Auto-hébergeable, aucun serveur tiers.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Nextcloud_Talk.png",
+          "category": "Communication",
+          "website": "https://nextcloud.com/talk/",
+          "docs": "https://nextcloud.com/talk/"
+        },
+        {
+          "name": "Zulip",
+          "packageId": "Zulip.Zulip",
+          "description": "Messagerie d'équipe open source avec conversations hiérarchiques. Threads organisés, intégrations, Markdown. Alternative à Slack avec une meilleure organisation.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Zulip_Zulip.png",
+          "category": "Communication",
+          "website": "https://zulip.com",
+          "docs": "https://zulip.com/help/"
+        }
+      ]
+    },
+    {
+      "name": "Musique & Audio",
+      "icon": "🎵",
+      "apps": [
+        {
+          "name": "VLC Media Player",
+          "packageId": "VideoLAN.VLC",
+          "description": "Lecteur multimédia open source universel. Lit pratiquement tous les formats audio/vidéo sans codecs additionnels (MKV, MP4, AVI, FLAC, etc.). Pas de pub, pas d'espionnage, 100% gratuit.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/VideoLAN_VLC.png",
+          "category": "Musique & Audio",
+          "website": "https://www.videolan.org",
+          "docs": "https://docs.videolan.me/vlc-user/desktop/3.0/en/index.html"
+        },
+        {
+          "name": "Audacity",
+          "packageId": "Audacity.Audacity",
+          "description": "Éditeur audio open source professionnel. Enregistrement multi-pistes, édition waveforms, effets (noise removal, reverb, EQ), export en MP3/FLAC/WAV. Plugin LADSPA/VST supporté.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Audacity_Audacity.png",
+          "category": "Musique & Audio",
+          "website": "https://www.audacityteam.org",
+          "docs": "https://manual.audacityteam.org/"
+        },
+        {
+          "name": "Equalizer APO",
+          "packageId": "Vietkong.EqualizerAPO",
+          "description": "Égaliseur audio système open source pour Windows. Modifie le son de tous les appareils audio (casques, enceintes). Filtres paramétriques illimités, convolution, analyse spectrale. Fonctionne en arrière-plan.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/EqualizerAPO.png",
+          "category": "Musique & Audio",
+          "website": "https://sourceforge.net/projects/equalizerapo",
+          "docs": "https://sourceforge.net/projects/equalizerapo/"
+        },
+        {
+          "name": "Strawberry",
+          "packageId": "StrawberryMusicPlayer.Strawberry",
+          "description": "Fork de Clementine axé haute fidélité. Lecteur audio audiophile, supporte FLAC/DSD, bibliothèque massive, paroles, pochettes. Ultra-configurable.",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/strawberry.png",
+          "category": "Musique & Audio",
+          "website": "https://www.strawberrymusicplayer.org",
+          "docs": "https://www.strawberrymusicplayer.org/"
+        },
+        {
+          "name": "LMMS",
+          "packageId": "LMMS.LMMS",
+          "description": "Station de musique numérique open source. Composition, mixage, production avec effets, instruments virtuels (synths, samples). Alternative à FL Studio.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/LMMS_LMMS.png",
+          "category": "Musique & Audio",
+          "website": "https://lmms.io",
+          "docs": "https://lmms.io/documentation/"
+        },
+        {
+          "name": "Ardour",
+          "packageId": "Ardour.Ardour",
+          "description": "DAW (station audio numérique) open source professionnelle. Enregistrement multi-pistes, mixage, mastering, MIDI. Utilisé en studio, non-linéaire.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Ardour_Ardour.png",
+          "category": "Musique & Audio",
+          "website": "https://ardour.org",
+          "docs": "https://ardour.org/manual.html"
+        },
+        {
+          "name": "MuseScore",
+          "packageId": "MuseScore.MuseScore",
+          "description": "Logiciel de notation musicale gratuit. Composition, partition, export PDF/MIDI/MusicXML. Plus de 800 instruments, playback, tutoriels intégrés.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/MuseScore_MuseScore.png",
+          "category": "Musique & Audio",
+          "website": "https://musescore.org",
+          "docs": "https://musescore.org/fr/handbook"
+        },
+        {
+          "name": "Mixxx",
+          "packageId": "Mixxx.Mixxx",
+          "description": "Logiciel de DJ gratuit et open source. 4 platines virtuelles, effets, looper, beatgrid, mix BPM, Vinyl control. Compatible avec les contrôleurs DJ.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Mixxx_Mixxx.png",
+          "category": "Musique & Audio",
+          "website": "https://mixxx.org",
+          "docs": "https://mixxx.org/manual/"
+        },
+        {
+          "name": "Hydrogen",
+          "packageId": "Hydrogen.Hydrogen",
+          "description": "Machine à rythmes open source. Batterie pas-à-pas, patterns, séquenceur, export audio/MIDI. Interface intuitive, patrons de batteries personnalisables.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Hydrogen_Hydrogen.png",
+          "category": "Musique & Audio",
+          "website": "http://hydrogen-music.org",
+          "docs": "http://hydrogen-music.org/documentation/"
+        },
+        {
+          "name": "Carla",
+          "packageId": "FilipeCasaCarla",
+          "description": "Hôte de plugins audio open source. Charge VST/LV2/LADSPA/DSSI, routing flexible, interface graphique. Pour les musiciens et ingénieurs du son.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/FilipeCasaCarla.png",
+          "category": "Musique & Audio",
+          "website": "https://kxstudio.linuxaudio.org/applications/carla",
+          "docs": "https://kxstudio.linuxaudio.org/applications/carla"
+        }
+      ]
+    },
+    {
+      "name": "Vidéo & Streaming",
+      "icon": "🎬",
+      "apps": [
+        {
+          "name": "OBS Studio",
+          "packageId": "ObsProject.OBSStudio",
+          "description": "Logiciel de capture et streaming vidéo open source. Enregistrement HD, streaming vers Twitch/YouTube, scènes multi-sources, filtres audio/vidéo, chroma key. Standard de l'industrie du streaming.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/ObsProject_OBSStudio.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://obsproject.com",
+          "docs": "https://obsproject.com/fr/wiki"
+        },
+        {
+          "name": "HandBrake",
+          "packageId": "HandBrake.HandBrake",
+          "description": "Convertisseur vidéo open source gratuit. Transcode en MP4/MKV avec x264/x265, pré配置ations pour toutes les plateformes (Apple, Android, gaming), sous-titres, filtres vidéo, batch encoding.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/HandBrake_HandBrake.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://handbrake.fr",
+          "docs": "https://handbrake.fr/docs/en/latest/"
+        },
+        {
+          "name": "MPV",
+          "packageId": "MPV.MPV",
+          "description": "Lecteur vidéo minimaliste et ultra-performant. Interface quasi-inexistante, rendu GPU accéléré, scaling de haute qualité, scriptable en Lua. Supporte tous les codecs modernes (AV1, H.265).",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/MPV.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://mpv.io",
+          "docs": "https://mpv.io/manual/master/"
+        },
+        {
+          "name": "MPC-HC",
+          "packageId": "MPC-HC.MPC-HC",
+          "description": "Lecteur vidéo classique ultra-léger pour Windows. Interface simple, utilisation minimale de CPU/RAM, rendu EVR, sous-titres intégrés. Idéal pour les vieilles machines ou pour un lecteur basique fiable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/MPCHC.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://mpc-hc.srcforge.net",
+          "docs": "https://github.com/clsid2/mpc-hc"
+        },
+        {
+          "name": "Kdenlive",
+          "packageId": "KDE.Kdenlive",
+          "description": "Montage vidéo non-linéaire open source. Multi-pistes illimités, effets et transitions, animations, correction couleurs, export multi-formats. Basé sur FFmpeg, interface configurable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Kdenlive.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://kdenlive.org",
+          "docs": "https://docs.kdenlive.org/fr/"
+        },
+        {
+          "name": "Shotcut",
+          "packageId": "Meltytech.Shotcut",
+          "description": "Montage vidéo open source gratuit. Timeline multi-pistes, filtres audio/vidéo, transitions, chroma key. Interface fluide, export via FFmpeg, pas de watermark. Idéal pour débutants en montage.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Shotcut.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://shotcut.org",
+          "docs": "https://shotcut.org/howto/"
+        },
+        {
+          "name": "ShareX",
+          "packageId": "ShareX.ShareX",
+          "description": "Outil de capture d'écran open source extrêmement complet. Captures plein écran/région/fenêtre, enregistrement GIF/vidéo, OCR, éditeur intégré, upload automatique vers 80+ services. Personnalisable à l'infini.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/ShareX_ShareX.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://getsharex.com",
+          "docs": "https://getsharex.com/docs"
+        },
+        {
+          "name": "Greenshot",
+          "packageId": "Greenshot.Greenshot",
+          "description": "Capture d'écran légère et efficace. Capture régionale, fenêtre ou plein écran, éditeur d'images intégré, export direct vers Imprimer/clipboard/email. Raccourcis clavier personnalisables.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Greenshot.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://getgreenshot.org",
+          "docs": "https://getgreenshot.org/help/"
+        },
+        {
+          "name": "ScreenToGif",
+          "packageId": "NickeManarin.ScreenToGif",
+          "description": "Enregistreur d'animations GIF/vidéo léger. Enregistre la sélection d'écran, webcam ou tableau blanc. Éditeur frame par frame intégré, export en GIF/APNG/vidéo. Ultra-compact et portable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/ScreenToGif.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://www.screentogif.com",
+          "docs": "https://www.screentogif.com/documentation"
+        },
+        {
+          "name": "OpenShot",
+          "packageId": "OpenShot.OpenShot",
+          "description": "Montage vidéo open source simple et intuitif. Timeline multi-pistes, transitions, titres animés, effets, export HD/4K. Idéal pour débutants.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/OpenShot_OpenShot.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://www.openshot.org",
+          "docs": "https://www.openshot.org/user-guide/"
+        },
+        {
+          "name": "Avidemux",
+          "packageId": "Avidemux.Avidemux",
+          "description": "Éditeur vidéo simple pour coupe, filtrage et encodage. Supporte tous les formats courants, filtrage GPU, batch processing. Idéal pour édition rapide.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Avidemux_Avidemux.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://avidemux.sourceforge.net",
+          "docs": "https://avidemux.sourceforge.net/avidemute.html"
+        },
+        {
+          "name": "LosslessCut",
+          "packageId": "nicbarker.LosslessCut",
+          "description": "Coupe et joint des vidéos sans réencodage (perte zéro). Ultra-rapide, supporte tous les formats, extraction audio, sous-titres. Open source.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/nicbarker_LosslessCut.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://github.com/nicbarker/LosslessCut",
+          "docs": "https://github.com/nicbarker/LosslessCut"
+        },
+        {
+          "name": "MKVToolNix",
+          "packageId": "MoritzBunkus.MKVToolNix",
+          "description": "Outils pour fichiers MKV. Créer, extraire, multiplexer, éditer les métadonnées de conteneurs Matroska. Interface graphique (MKVToolNix GUI).",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/MoritzBunkus_MKVToolNix.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://mkvtoolnix.download",
+          "docs": "https://mkvtoolnix.download/docs.html"
+        },
+        {
+          "name": "Staxrip",
+          "packageId": "staxrip.staxrip",
+          "description": "Interface graphique pour FFmpeg/x264/x265/AviSynth. Encodage vidéo avancé, filtrage, sous-titres, muxing. Outil de référence pour l'encodage.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/staxrip_staxrip.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://github.com/staxrip/staxrip",
+          "docs": "https://github.com/staxrip/staxrip"
+        },
+        {
+          "name": "Flowblade",
+          "packageId": "jliljebl.Flowblade",
+          "description": "Montage vidéo multithread open source. Timeline multipiste, transitions, effets, rendu FFmpeg. Interface optimisée pour la vitesse et la précision.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/jliljebl_Flowblade.png",
+          "category": "Vidéo & Streaming",
+          "website": "https://jliljebl.github.io/flowblade/",
+          "docs": "https://jliljebl.github.io/flowblade/"
+        }
+      ]
+    },
+    {
+      "name": "Jeux",
+      "icon": "🎮",
+      "apps": [
+        {
+          "name": "Heroic Games Launcher",
+          "packageId": "HeroicGamesLauncher.Heroic",
+          "description": "Launcher open source pour Epic Games Store et GOG. Interface moderne, téléchargement, gestion de bibliothèque, Proton/Wine pour Linux, intégration Legendary. Multiplateforme.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Heroic.png",
+          "category": "Jeux",
+          "website": "https://heroicgameslauncher.com",
+          "docs": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki"
+        },
+        {
+          "name": "Playnite",
+          "packageId": "Playnite.Playnite",
+          "description": "Agrégateur de jeux open source qui unifie toutes les plateformes (Steam, Epic, GOG, Origin, Xbox, emulators). Interface personnalisable, stats de jeu, thèmes, plugins. Un seul endroit pour tous vos jeux.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Playnite.png",
+          "category": "Jeux",
+          "website": "https://playnite.link",
+          "docs": "https://playnite.link/doc/"
+        },
+        {
+          "name": "RetroArch",
+          "packageId": "Libretro.RetroArch",
+          "description": "Frontend d'émulation multiplateforme. Émule 80+ systèmes (NES, SNES, N64, PS1, PSP, GBA, DS, Genesis...) via des cores. Scanlines, shaders, sauvegardes instantanées, netplay.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/RetroArch.png",
+          "category": "Jeux",
+          "website": "https://www.retroarch.com",
+          "docs": "https://docs.libretro.com/"
+        },
+        {
+          "name": "PPSSPP",
+          "packageId": "PPSSPP.PPSSPP",
+          "description": "Émulateur PSP (PlayStation Portable) haute performance. Grâce à PSP, sauvegardes, amélioration graphique, multiplayer local. Fonctionne avec les ISO PSP.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/PPSSPP_PPSSPP.png",
+          "category": "Jeux",
+          "website": "https://www.ppsspp.org",
+          "docs": "https://www.ppsspp.org/index.html"
+        },
+        {
+          "name": "Dolphin Emulator",
+          "packageId": "DolphinEmulator.Dolphin",
+          "description": "Émulateur GameCube et Wii. Amélioration HD, cheats, saves states, online multiplayer. Compatible Windows/Linux/Mac. Hautement configurable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/DolphinEmulator_Dolphin.png",
+          "category": "Jeux",
+          "website": "https://dolphin-emu.org",
+          "docs": "https://wiki.dolphin-emu.org/"
+        },
+        {
+          "name": "Cemu",
+          "packageId": "Cemu.Cemu",
+          "description": "Émulateur Wii U. Compatible avec la plupart des jeux Wii U, amélioration graphique 4K, controller support, online (développement).",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Cemu_Cemu.png",
+          "category": "Jeux",
+          "website": "https://cemu.info",
+          "docs": "https://cemu.info/"
+        },
+        {
+          "name": "PCSX2",
+          "packageId": "PCSX2.PCSX2",
+          "description": "Émulateur PlayStation 2. Plus de 95% des jeux PS2 compatibles, upscale HD, textures HD, speedhacks, cheats. Émulateur PS2 le plus mature.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/PCSX2_PCSX2.png",
+          "category": "Jeux",
+          "website": "https://pcsx2.net",
+          "docs": "https://pcsx2.net/docs/"
+        },
+        {
+          "name": "Primehack",
+          "packageId": "DolphinEmulator.Primehack",
+          "description": "Fork de Dolphin optimisé pour Metroid Prime. Contrôles FPS natifs, améliorations spécifiques. Idéal pour Metroid Prime sur PC.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/DolphinEmulator_Primehack.png",
+          "category": "Jeux",
+          "website": "https://paraxcite.net",
+          "docs": "https://paraxcite.net"
+        },
+        {
+          "name": "Xemu",
+          "packageId": "xemu.xemu",
+          "description": "Émulateur Xbox original. Compatible avec la majorité des jeux Xbox, amélioration HD, save states. Basé sur QEMU.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/xemu_xemu.png",
+          "category": "Jeux",
+          "website": "https://xemu.app",
+          "docs": "https://xemu.app/"
+        },
+        {
+          "name": "mGBA",
+          "packageId": "mGBA.mGBA",
+          "description": "Émulateur Game Boy Advance. Haute compatibilité, debugging intégré, speedhacks, cheats. Plus rapide que VisualBoyAdvance.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/mGBA_mGBA.png",
+          "category": "Jeux",
+          "website": "https://mgba.io",
+          "docs": "https://mgba.io/documentation/"
+        },
+        {
+          "name": "Minetest",
+          "packageId": "Minetest.Minetest",
+          "description": "Moteur de jeux voxel open source. Jeu de survival/création multijoueur, mods illimités, serveurs persistance. Alternative open source à Minecraft.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Minetest_Minetest.png",
+          "category": "Jeux",
+          "website": "https://www.minetest.net",
+          "docs": "https://www.minetest.net/documentation/"
+        },
+        {
+          "name": "0 A.D.",
+          "packageId": "WildfireGames.0AD",
+          "description": "Jeu de stratégie en temps réel historical. Graphismes 3D, IA avancée, multijoueur. Basé sur l'histoire antique. Open source depuis 20 ans.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/WildfireGames_0AD.png",
+          "category": "Jeux",
+          "website": "https://play0ad.com",
+          "docs": "https://play0ad.com/manual/"
+        },
+        {
+          "name": "OpenRA",
+          "packageId": "OpenRA.OpenRA",
+          "description": "Moteur open source pour les classiques Command & Conquer. Red Alert, Tiberian Dawn, Dune 2000. Interface moderne, multijoueur en ligne.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/OpenRA_OpenRA.png",
+          "category": "Jeux",
+          "website": "https://www.openra.net",
+          "docs": "https://github.com/OpenRA/OpenRA/wiki"
+        },
+        {
+          "name": "Battle for Wesnoth",
+          "packageId": "Wesnoth.Wesnoth",
+          "description": "Jeu de stratégie au tour par tour fantasy. Campagne solo, multijoueur, éditeur de cartes, mods. 20+ ans de développement, communauté active.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Wesnoth_Wesnoth.png",
+          "category": "Jeux",
+          "website": "https://wesnoth.org",
+          "docs": "https://wiki.wesnoth.org/"
+        },
+        {
+          "name": "SuperTuxKart",
+          "packageId": "SuperTuxKart.SuperTuxKart",
+          "description": "Jeu de kart racing gratuit. Pistes, personnages, modes de jeu. Multijoueur local/online, graphismes 3D, course contre les items.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/SuperTuxKart_SuperTuxKart.png",
+          "category": "Jeux",
+          "website": "https://supertuxkart.net",
+          "docs": "https://supertuxkart.net/Manual"
+        },
+        {
+          "name": "Xonotic",
+          "packageId": "Xonotic.Xonotic",
+          "description": "FPS open source rapide. Arènes, armes variées, multijoueur, bots. Basé sur DarkPlaces, style Quake/Unreal Tournament. Communeauté active.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Xonotic_Xonotic.png",
+          "category": "Jeux",
+          "website": "https://xonotic.org",
+          "docs": "https://xonotic.org/manual/"
+        },
+        {
+          "name": "Freeciv",
+          "packageId": "Freeciv.Freeciv",
+          "description": "Jeu de civilisation open source. Construisez une civilisation, gouvernez, combattez, tradez. Multijoueur, campagne, IA avancée. Depuis 1995.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Freeciv_Freeciv.png",
+          "category": "Jeux",
+          "website": "https://freeciv.org",
+          "docs": "https://freeciv.org/documentation.html"
+        },
+        {
+          "name": "OpenMW",
+          "packageId": "OpenMW.OpenMW",
+          "description": "Moteur open source pour The Elder Scrolls III: Morrowind. Améliore le jeu original, patches, mods, support HD. Jouez à Morrowind sur tout OS.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/OpenMW_OpenMW.png",
+          "category": "Jeux",
+          "website": "https://openmw.org",
+          "docs": "https://openmw.org/"
+        },
+        {
+          "name": "AssaultCube",
+          "packageId": "AssaultCube.AssaultCube",
+          "description": "FPS multijoueur léger et rapide. Arènes, modes de jeu classiques, bots, cartes communautaires. Ultra-léger, tourne sur vieilles machines.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/AssaultCube_AssaultCube.png",
+          "category": "Jeux",
+          "website": "https://assault.cubers.net",
+          "docs": "https://assault.cubers.net/"
+        },
+        {
+          "name": "Flare",
+          "packageId": "Flare.Flare",
+          "description": "Jeu de rôle d'action isométrique. Donjons, combats, sorts, loot. Style Diablo open source, avec campagne complète.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Flare_Flare.png",
+          "category": "Jeux",
+          "website": "https://flare-engine.org",
+          "docs": "https://flare-engine.org/"
+        },
+        {
+          "name": "Unknown Horizons",
+          "packageId": "UnknownHorizons.UnknownHorizons",
+          "description": "Jeu de stratégie de gestion économique. Construisez une colonie, gérez les ressources, le commerce, la diplomatie. Style Anno open source.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/UnknownHorizons_UnknownHorizons.png",
+          "category": "Jeux",
+          "website": "https://unknownhorizons.org",
+          "docs": "https://unknownhorizons.org/"
+        }
+      ]
+    },
+    {
+      "name": "Développement",
+      "icon": "💻",
+      "apps": [
+        {
+          "name": "Git",
+          "packageId": "Git.Git",
+          "description": "Système de contrôle de version distribué créé par Linus Torvalds. Branches, merges, historique complet, push/pull distribué. Indispensable pour tout développeur. Inclut Git Bash.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Git_Git.png",
+          "category": "Développement",
+          "website": "https://git-scm.com",
+          "docs": "https://git-scm.com/book/fr"
+        },
+        {
+          "name": "GitHub Desktop",
+          "packageId": "GitHub.GitHubDesktop",
+          "description": "Client graphique officiel de GitHub. Gestion des pull requests, branches, commits, conflits de merge. Interface simplifiée pour les non-utilisateurs de ligne de commande. Intégration GitHub Actions.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/GitHub_GitHubDesktop.png",
+          "category": "Développement",
+          "website": "https://desktop.github.com",
+          "docs": "https://docs.github.com/fr/desktop"
+        },
+        {
+          "name": "Node.js LTS",
+          "packageId": "OpenJS.NodeJS.LTS",
+          "description": "Runtime JavaScript basé sur le moteur V8 de Chrome. Exécute du JS côté serveur ou en desktop (Electron). Versions LTS (support long terme), npm inclus. Base de l'écosystème JavaScript moderne.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/OpenJS_NodeJS_LTS.png",
+          "category": "Développement",
+          "website": "https://nodejs.org",
+          "docs": "https://nodejs.org/fr/docs/"
+        },
+        {
+          "name": "Python 3.12",
+          "packageId": "Python.Python.3.12",
+          "description": "Langage de programmation polyvalent et accessible. IA/ML (PyTorch, TensorFlow), scripting, web (Django, Flask), data science (Pandas, NumPy). pip pour les paquets, IDLE inclus.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Python_Python_3_12.png",
+          "category": "Développement",
+          "website": "https://www.python.org",
+          "docs": "https://docs.python.org/fr/3.12/"
+        },
+        {
+          "name": "Notepad++",
+          "packageId": "Notepad++.Notepad++",
+          "description": "Éditeur de texte avancé gratuit pour Windows. Syntaxe colorée pour 80+ langages, macro, recherche/remplacement regex, multi-onglets, thèmes. Basé sur Scintilla, ultra-léger.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Notepad++_Notepad++.png",
+          "category": "Développement",
+          "website": "https://notepad-plus-plus.org",
+          "docs": "https://npp-usermanual.org/fr/"
+        },
+        {
+          "name": "DBeaver",
+          "packageId": "DBeaver.DBeaver",
+          "description": "Client de bases de données universel open source. Supporte MySQL, PostgreSQL, SQLite, MongoDB, Oracle, 80+ SGBD. Éditeur SQL, ERD, import/export, navigation des données. Version Community gratuite.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/DBeaver.png",
+          "category": "Développement",
+          "website": "https://dbeaver.io",
+          "docs": "https://dbeaver.com/docs/"
+        },
+        {
+          "name": "WinSCP",
+          "packageId": "WinSCP.WinSCP",
+          "description": "Client FTP/SFTP/SCP/WebDAV pour Windows. Interface drag-and-drop, éditeur de fichiers distant, synchronisation, scriptable, intégration PuTTY. Stocke les sessions, portable disponible.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/WinSCP.png",
+          "category": "Développement",
+          "website": "https://winscp.net",
+          "docs": "https://winscp.net/eng/docs/"
+        },
+        {
+          "name": "PuTTY",
+          "packageId": "PuTTY.PuTTY",
+          "description": "Client SSH/Telnet/Rlogin gratuit pour Windows. Connexion sécurisée à des serveurs distants, tunnels SSH, agent de clés, terminal configurable. Depuis 1999, standard de l'industrie.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/PuTTY_PuTTY.png",
+          "category": "Développement",
+          "website": "https://www.chiark.greenend.org.uk/~sgtatham/putty",
+          "docs": "https://www.chiark.greenend.org.uk/~sgtatham/putty/docs.html"
+        },
+        {
+          "name": "Neovim",
+          "packageId": "Neovim.Neovim",
+          "description": "Éditeur de texte terminal amélioré. Successeur de Vim, extensible en Lua, LSP intégré, plugins modernes. Ultra-rapide, entièrement configurable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Neovim_Neovim.png",
+          "category": "Développement",
+          "website": "https://neovim.io",
+          "docs": "https://neovim.io/doc/user/"
+        },
+        {
+          "name": "Vim",
+          "packageId": "Vim.Vim",
+          "description": "Éditeur de texte classique modal. Puissant une fois maîtrisé, raccourcis clavier, macros, multi-buffers, splits. Standard UNIX depuis 1991.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Vim_Vim.png",
+          "category": "Développement",
+          "website": "https://www.vim.org",
+          "docs": "https://www.vim.org/doc/"
+        },
+        {
+          "name": "TortoiseGit",
+          "packageId": "TortoiseGit.TortoiseGit",
+          "description": "Client Git Windows intégré à l'explorateur. Clic droit pour commit/push/pull, diff visuel, gestion des branches. Interface Shell native.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/TortoiseGit_TortoiseGit.png",
+          "category": "Développement",
+          "website": "https://tortoisegit.org",
+          "docs": "https://tortoisegit.org/docs/"
+        },
+        {
+          "name": "CMake",
+          "packageId": "Kitware.CMake",
+          "description": "Système de build multiplateforme. Génère des makefiles/projets VS/Xcode, supporte C/C++, configuré par des scripts CMakeLists.txt. Standard de l'industrie.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Kitware_CMake.png",
+          "category": "Développement",
+          "website": "https://cmake.org",
+          "docs": "https://cmake.org/cmake/help/latest/"
+        },
+        {
+          "name": "Go",
+          "packageId": "GoLang.Go",
+          "description": "Langage de programmation simple et performant par Google. Compilé, typé, gestion des concurrences (goroutines). Idéal pour les services web/CLI.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/GoLang_Go.png",
+          "category": "Développement",
+          "website": "https://go.dev",
+          "docs": "https://go.dev/doc/"
+        },
+        {
+          "name": "Rust",
+          "packageId": "Rustlang.Rust.MSVC",
+          "description": "Langage de programmation système performant et sûr. Gestion mémoire sans garbage collector, zéro-coût abstractions. Pour les systèmes/performances critiques.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Rustlang_Rust_MSVC.png",
+          "category": "Développement",
+          "website": "https://www.rust-lang.org",
+          "docs": "https://doc.rust-lang.org/book/"
+        },
+        {
+          "name": "Julia",
+          "packageId": "JuliaLang.Julia",
+          "description": "Langage de calcul scientifique haute performance. Syntaxe Python-like, vitesse C, multi-paradigme. Pour le machine learning, data science, recherche.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/JuliaLang_Julia.png",
+          "category": "Développement",
+          "website": "https://julialang.org",
+          "docs": "https://docs.julialang.org/"
+        },
+        {
+          "name": "PowerShell",
+          "packageId": "Microsoft.PowerShell",
+          "description": "Shell et langage de scripting Microsoft. Cmdlets avancées, pipeline, gestion de configuration (DSC), cross-platform. Successeur de CMD.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Microsoft_PowerShell.png",
+          "category": "Développement",
+          "website": "https://github.com/PowerShell/PowerShell",
+          "docs": "https://learn.microsoft.com/fr-fr/powershell/"
+        },
+        {
+          "name": "Windows Terminal",
+          "packageId": "Microsoft.WindowsTerminal",
+          "description": "Terminal moderne pour Windows. Onglets,-split panes, Unicode/UTF-8, GPU-acceléré, personnalisable. Supporte CMD, PowerShell, WSL, SSH.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Microsoft_WindowsTerminal.png",
+          "category": "Développement",
+          "website": "https://github.com/microsoft/terminal",
+          "docs": "https://learn.microsoft.com/fr-fr/windows/terminal/"
+        },
+        {
+          "name": "Eclipse",
+          "packageId": "EclipseAdoptium.Temurin.21",
+          "description": "IDE open source pour Java. Plugins pour Java/PHP/C++/Python, débogage, refactoring, Maven/Gradle. Standard Java depuis 2004.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/EclipseAdoptium_Temurin_21.png",
+          "category": "Développement",
+          "website": "https://www.eclipse.org",
+          "docs": "https://adoptium.net/temurin/"
+        },
+        {
+          "name": "Qt Creator",
+          "packageId": "TheQtCompany.QtCreator",
+          "description": "IDE pour C++/Qt/JavaScript/Python. Autocomplétion, débogage, designer UI, déployement mobile. Open source pour Qt open source.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/TheQtCompany_QtCreator.png",
+          "category": "Développement",
+          "website": "https://www.qt.io/product/development-tools",
+          "docs": "https://doc.qt.io/qtcreator/"
+        },
+        {
+          "name": "Helix",
+          "packageId": "Helix.Helix",
+          "description": "Éditeur de texte terminal moderne. Multicurseurs, LSP intégré, Kakoune-like, ultra-rapide. Écrit en Rust, sans config initiale nécessaire.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Helix_Helix.png",
+          "category": "Développement",
+          "website": "https://helix-editor.com",
+          "docs": "https://docs.helix-editor.com/"
+        },
+        {
+          "name": "Lapce",
+          "packageId": "Lapce.Lapce",
+          "description": "Éditeur de code ultra-rapide. Plugins WASM, LSP, terminal intégré, écrit en Rust. Performance comparable à Sublime Text, entièrement open source.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Lapce_Lapce.png",
+          "category": "Développement",
+          "website": "https://lapce.dev",
+          "docs": "https://docs.lapce.dev/"
+        },
+        {
+          "name": "Geany",
+          "packageId": "Geany.Geany",
+          "description": "IDE léger pour de nombreux langages. Coloration syntaxique, auto-complétion, compilation, terminal intégré. Basé sur GTK, très rapide.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Geany_Geany.png",
+          "category": "Développement",
+          "website": "https://www.geany.org",
+          "docs": "https://www.geany.org/documentation/"
+        },
+        {
+          "name": "Code::Blocks",
+          "packageId": "Codeblocks.Codeblocks",
+          "description": "IDE C/C++ open source. Compilateurs multiples (GCC, MSVC), débogage, plugins, éditeur de projets. Léger et configuré pour le développement C++.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Codeblocks_Codeblocks.png",
+          "category": "Développement",
+          "website": "https://www.codeblocks.org",
+          "docs": "https://www.codeblocks.org/documentation"
+        },
+        {
+          "name": "Arduino IDE",
+          "packageId": "Arduino.ArduinoIDE",
+          "description": "Environnement de développement pour Arduino. Éditeur, compilation, upload de sketches, gestion de bibliothèques. Pour l'électronique et l'IoT.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Arduino_ArduinoIDE.png",
+          "category": "Développement",
+          "website": "https://www.arduino.cc/en/software",
+          "docs": "https://docs.arduino.cc/software/ide-v2/"
+        },
+        {
+          "name": "GNU Octave",
+          "packageId": "GNU.Octave",
+          "description": "Langage de calcul numérique, alternative à MATLAB. Calcul matriciel, visualisation, programmation scientifique. Compatible scripts MATLAB.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/GNU_Octave.png",
+          "category": "Développement",
+          "website": "https://www.gnu.org/software/octave/",
+          "docs": "https://www.gnu.org/software/octave/doc/"
+        },
+        {
+          "name": "Zed",
+          "packageId": "Zed.Zed",
+          "description": "Éditeur de code haute performance écrit en Rust. Multi-curseurs, collaboration temps réel, LSP, terminal intégré. Ultra-rapide, GPU-acceléré.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Zed_Zed.png",
+          "category": "Développement",
+          "website": "https://zed.dev",
+          "docs": "https://zed.dev/docs"
+        }
+      ]
+    },
+    {
+      "name": "Utilitaires",
+      "icon": "🔧",
+      "apps": [
+        {
+          "name": "7-Zip",
+          "packageId": "7zip.7zip",
+          "description": "Archiver et compresser des fichiers gratuitement. Taux de compression 7z supérieur à ZIP/RAR, supporte 70+ formats (ZIP, RAR, TAR, GZ...), chiffrement AES-256, intégration Shell Windows.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/7zip_7zip.png",
+          "category": "Utilitaires",
+          "website": "https://www.7-zip.org",
+          "docs": "https://www.7-zip.org/faq.html"
+        },
+        {
+          "name": "PowerToys",
+          "packageId": "Microsoft.PowerToys",
+          "description": "Suite d'outils de productivité Microsoft. FancyZones (snap windows avancé), Color Picker, File Locksmith, Image Resizer, PowerRename, Run launcher, Keyboard Manager. Gratuit et open source.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/PowerToys.png",
+          "category": "Utilitaires",
+          "website": "https://github.com/microsoft/PowerToys",
+          "docs": "https://learn.microsoft.com/fr-fr/windows/powertoys/"
+        },
+        {
+          "name": "TrafficMonitor",
+          "packageId": "TrafficMonitor.TrafficMonitor",
+          "description": "Moniteur réseau et système en temps réel. Vitesse d'upload/download, utilisation CPU/RAM/disque, températures. Widget flottant ou intégré à la barre des tâches. Open source, portable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/TrafficMonitor.png",
+          "category": "Utilitaires",
+          "website": "https://github.com/zhongyang219/TrafficMonitor",
+          "docs": "https://github.com/zhongyang219/TrafficMonitor"
+        },
+        {
+          "name": "Windhawk",
+          "packageId": "RamenSoftware.Windhawk",
+          "description": "Plateforme de personnalisation de Windows par modification de code en temps réel. Mods pour Explorer, barre des tâches, menus, fenêtres. Marketplace de mods communautaires, safe et réversible.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Windhawk.png",
+          "category": "Utilitaires",
+          "website": "https://windhawk.net",
+          "docs": "https://windhawk.net/"
+        },
+        {
+          "name": "CrystalDiskInfo",
+          "packageId": "CrystalDewWorld.CrystalDiskInfo",
+          "description": "Surveillance de la santé des disques durs/SSD. S.M.A.R.T. complet, températures, heures de fonctionnement, secteurs défectueux. Alertes de dégradation, interface claire avec code couleur (bon/moyen/mauvais).",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/CrystalDiskInfo.png",
+          "category": "Utilitaires",
+          "website": "https://crystalmark.info/en/software/crystaldiskinfo",
+          "docs": "https://crystalmark.info/en/software/crystaldiskinfo/"
+        },
+        {
+          "name": "CrystalDiskMark",
+          "packageId": "CrystalDewWorld.CrystalDiskMark",
+          "description": "Benchmark de performance de disques dur et SSD. Mesure la vitesse de lecture/écriture séquentielle et aléatoire (seq, 4K, 32Q, Rnd). Comparaison entre disques, test personnalisable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/CrystalDiskMark.png",
+          "category": "Utilitaires",
+          "website": "https://crystalmark.info/en/software/crystaldiskmark",
+          "docs": "https://crystalmark.info/en/software/crystaldiskmark"
+        },
+        {
+          "name": "Rufus",
+          "packageId": "Rufus.Rufus",
+          "description": "Créateur de clés USB bootables ultra-rapide. Crée des installateurs Windows/Linux depuis ISO, supporte GPT/MBR, UEFI/BIOS, FAT32/NTFS. Formatage avancé, test de mémoire, extraction d'ISO.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Rufus.png",
+          "category": "Utilitaires",
+          "website": "https://rufus.ie",
+          "docs": "https://rufus.fr/faq/"
+        },
+        {
+          "name": "Sumatra PDF",
+          "packageId": "SumatraPDF.SumatraPDF",
+          "description": "Lecteur PDF ultra-léger et rapide. Supporte PDF, EPUB, MOBI, XPS, DjVu, CBZ/CBR. Mode sombre, sauvegarde des paramètres, recherche plein texte, raccourcis clavier. Installation en 1 clic.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/SumatraPDF.png",
+          "category": "Utilitaires",
+          "website": "https://www.sumatrapdfreader.com",
+          "docs": "https://www.sumatrapdfreader.com/faq.html"
+        },
+        {
+          "name": "AutoHotkey",
+          "packageId": "AutoHotkey.AutoHotkey",
+          "description": "Langage d'automatisation pour Windows. Crée des macros, raccourcis clavier, remappage de touches, menus personnalisés, automatisation de tâches répétitives. Scriptable, community active.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/AutoHotkey.png",
+          "category": "Utilitaires",
+          "website": "https://www.autohotkey.com",
+          "docs": "https://www.autohotkey.com/docs/fr/"
+        },
+        {
+          "name": "EarTrumpet",
+          "packageId": "File-New-Project.EarTrumpet",
+          "description": "Contrôle du volume audio individuel par application. Ajustez le son de chaque app séparément via un mini-mixer dans la barre des tâches. Remplace le mixer audio Windows, moderne et intuitif.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/EarTrumpet.png",
+          "category": "Utilitaires",
+          "website": "https://eartrumpet.com",
+          "docs": "https://eartrumpet.com/"
+        },
+        {
+          "name": "TranslucentTB",
+          "packageId": "TranslucentTB.TranslucentTB",
+          "description": "Rendez la barre des tâches Windows transparente ou floue. Mode normal, blur, acrylique, opaque, clear. Personnalisation complète des couleurs et opacité. Démarrage automatique, open source.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/TranslucentTB.png",
+          "category": "Utilitaires",
+          "website": "https://github.com/TranslucentTB/TranslucentTB",
+          "docs": "https://github.com/TranslucentTB/TranslucentTB"
+        },
+        {
+          "name": "BleachBit",
+          "packageId": "BleachBit.BleachBit",
+          "description": "Nettoyant système open source. Libère l'espace disque, supprime les caches/cookies/fichiers temporiers, nettoie le registre. Alternative à CCleaner.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/BleachBit_BleachBit.png",
+          "category": "Utilitaires",
+          "website": "https://www.bleachbit.org",
+          "docs": "https://www.bleachbit.org/documentation"
+        },
+        {
+          "name": "System Informer",
+          "packageId": "ProcessHacker.SystemInformer",
+          "description": "Moniteur de processus avancé open source. Moniteur de processus, threads, mémoire, I/O, réseau. Terminer des processus, surveiller les rootkits.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/ProcessHacker_SystemInformer.png",
+          "category": "Utilitaires",
+          "website": "https://systeminformer.sourceforge.io",
+          "docs": "https://systeminformer.sourceforge.io/"
+        },
+        {
+          "name": "Libre Hardware Monitor",
+          "packageId": "LibreHardwareMonitor.LibreHardwareMonitor",
+          "description": "Monitoring matériel open source. Températures, fréquences, ventilateurs, tensions, GPU. Fork de Open Hardware Monitor, interface moderne WPF.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/LibreHardwareMonitor_LibreHardwareMonitor.png",
+          "category": "Utilitaires",
+          "website": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+          "docs": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+        },
+        {
+          "name": "WinDirStat",
+          "packageId": "WinDirStat.WinDirStat",
+          "description": "Analyse d'espace disque. Visualisation treemap de l'utilisation disque, nettoyage, tri par taille. Identifie les gros fichiers/dossiers.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/WinDirStat_WinDirStat.png",
+          "category": "Utilitaires",
+          "website": "https://windirstat.net",
+          "docs": "https://windirstat.net/"
+        },
+        {
+          "name": "Ditto",
+          "packageId": "Ditto.Ditto",
+          "description": "Gestionnaire de presse-papiers. Historique complet, recherche, raccourcis clavier, synchronisation réseau, images/texte. Alternative avancée au Ctrl+Z.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Ditto_Ditto.png",
+          "category": "Utilitaires",
+          "website": "https://ditto-cp.sourceforge.io",
+          "docs": "https://ditto-cp.sourceforge.io/"
+        },
+        {
+          "name": "Flow Launcher",
+          "packageId": "Flow-Launcher.Flow-Launcher",
+          "description": "Lanceur de recherche rapide. Recherche de fichiers/apps/commandes, plugins, calculatrice, conversion d'unités. Alternative à Wox/Alfred.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Flow-Launcher_Flow-Launcher.png",
+          "category": "Utilitaires",
+          "website": "https://www.flowlauncher.com",
+          "docs": "https://www.flowlauncher.com/documentation/"
+        },
+        {
+          "name": "QuickLook",
+          "packageId": "QL-Win.QuickLook",
+          "description": "Aperçu rapide des fichiers (comme macOS). Espace pour prévisualiser images/PDF/docs/audio/vidéo sans ouvrir l'app. Ultra-pratique.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/QL-Win_QuickLook.png",
+          "category": "Utilitaires",
+          "website": "https://github.com/QL-Win/QuickLook",
+          "docs": "https://github.com/QL-Win/QuickLook"
+        },
+        {
+          "name": "WinMerge",
+          "packageId": "WinMerge.WinMerge",
+          "description": "Outil de comparaison de fichiers/dossiers. Diff/Merge visuel, coloration syntaxique, édition intégrée, plugin. Open source, indispensable pour Git.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/WinMerge_WinMerge.png",
+          "category": "Utilitaires",
+          "website": "https://winmerge.org",
+          "docs": "https://winmerge.org/docs/"
+        },
+        {
+          "name": "Notepad2-mod",
+          "packageId": "XhmikosR.Notepad2-mod",
+          "description": "Éditeur de texte léger amélioré. Fork de Notepad2, coloration syntaxique pour 20+ langages, auto-complétion, encodage. Remplacement de Notepad.",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/notepad2-mod.png",
+          "category": "Utilitaires",
+          "website": "https://xhmikosr.github.io/notepad2-mod",
+          "docs": "https://xhmikosr.github.io/notepad2-mod/"
+        },
+        {
+          "name": "CopyQ",
+          "packageId": "hluk.CopyQ",
+          "description": "Gestionnaire de presse-papiers avancé. Historique, scripts, organisation en onglets, recherche, actions automatisées. Open source, cross-platform.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/hluk_CopyQ.png",
+          "category": "Utilitaires",
+          "website": "https://hluk.github.io/CopyQ",
+          "docs": "https://hluk.github.io/CopyQ/"
+        },
+        {
+          "name": "qBittorrent",
+          "packageId": "qBittorrent.qBittorrent",
+          "description": "Client BitTorrent open source. Interface web, recherche intégrée, filtration IP, chiffrement, limites de débit. Pas de pub, pas de bloatware.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/qBittorrent_qBittorrent.png",
+          "category": "Utilitaires",
+          "website": "https://www.qbittorrent.org",
+          "docs": "https://www.qbittorrent.org/wiki"
+        },
+        {
+          "name": "PeaZip",
+          "packageId": "PeaZip.PeaZip",
+          "description": "Archiver open source. Supporte 200+ formats, chiffrement AES, extraction rapide, éditeur d'archives, conversion. Alternative à WinRAR/7-Zip.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/PeaZip_PeaZip.png",
+          "category": "Utilitaires",
+          "website": "https://peazip.github.io",
+          "docs": "https://peazip.github.io/"
+        },
+        {
+          "name": "TestDisk",
+          "packageId": "CGSecurity.TestDisk",
+          "description": "Récupération de données et réparation de partitions. Récupère des fichiers effacés, répare les partitions bootables, clone de disques. Outil de survie.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/CGSecurity_TestDisk.png",
+          "category": "Utilitaires",
+          "website": "https://www.cgsecurity.org",
+          "docs": "https://www.cgsecurity.org/"
+        },
+        {
+          "name": "PhotoRec",
+          "packageId": "CGSecurity.PhotoRec",
+          "description": "Récupération de fichiers effacés. Analyse brute du disque, récupère images/videos/docs de 480+ extensions. Compagnon de TestDisk.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/CGSecurity_PhotoRec.png",
+          "category": "Utilitaires",
+          "website": "https://www.cgsecurity.org",
+          "docs": "https://www.cgsecurity.org/"
+        },
+        {
+          "name": "GSmartControl",
+          "packageId": "GSmartControl.GSmartControl",
+          "description": "Interface graphique pour S.M.A.R.T. Affiche la santé des disques dur, températures, erreurs, prédictions de défaillance. Basé sur smartmontools.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/GSmartControl_GSmartControl.png",
+          "category": "Utilitaires",
+          "website": "https://gsmartcontrol.sourceforge.io",
+          "docs": "https://gsmartcontrol.sourceforge.io/"
+        },
+        {
+          "name": "Clonezilla",
+          "packageId": "Clonezilla.Clonezilla",
+          "description": "Clonage et sauvegarde de disques. Interface en ligne de commande, pas graphique.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Clonezilla_Clonezilla.png",
+          "category": "Utilitaires",
+          "website": "https://clonezilla.org",
+          "docs": "https://clonezilla.org/"
+        },
+        {
+          "name": "Revo Uninstaller",
+          "packageId": "RevoUninstaller.RevoUninstaller",
+          "description": "Désinstalleur avancé qui supprime les programmes et leurs résidus (registre, fichiers restants). Nettoie en profondeur là où le désinstalleur standard échoue.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/RevoUninstaller_RevoUninstaller.png",
+          "category": "Utilitaires",
+          "website": "https://www.revouninstaller.com",
+          "docs": "https://www.revouninstaller.com/manual/overview/"
+        }
+      ]
+    },
+    {
+      "name": "Bureautique",
+      "icon": "📄",
+      "apps": [
+        {
+          "name": "LibreOffice",
+          "packageId": "TheDocumentFoundation.LibreOffice",
+          "description": "Suite bureautique complète et gratuite, alternative à Microsoft Office. Writer (Word), Calc (Excel), Impress (PowerPoint), Draw, Math, Base. Compatible formats MS Office, open source.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/TheDocumentFoundation_LibreOffice.png",
+          "category": "Bureautique",
+          "website": "https://www.libreoffice.org",
+          "docs": "https://fr.libreoffice.org/get-help/"
+        },
+        {
+          "name": "Anki",
+          "packageId": "Anki.Anki",
+          "description": "Logiciel de cartes mémo (flashcards) basé sur la répétition espacée. Idéal pour apprendre vocabulaire, médecine, codes, examens. Algorithm SM-2 optimisé, synchronisation AnkiWeb, add-ons.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Anki_Anki.png",
+          "category": "Bureautique",
+          "website": "https://apps.ankiweb.net",
+          "docs": "https://docs.ankiweb.net/fr/"
+        },
+        {
+          "name": "Calibre",
+          "packageId": "Calibre.Calibre",
+          "description": "Gestionnaire de livres électroniques complet. Convertit entre formats (EPUB, MOBI, PDF, FB2), éditeur de métadonnées, lecteur intégré, envoi par email, serveur de contenu. Catalogue personnel.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Calibre_Calibre.png",
+          "category": "Bureautique",
+          "website": "https://calibre-ebook.com",
+          "docs": "https://manual.calibre-ebook.com/fr/"
+        },
+        {
+          "name": "Zotero",
+          "packageId": "Zotero.Zotero",
+          "description": "Gestionnaire de références bibliographiques et de citations. Capture automatique des métadonnées, organisation par collections, plugins pour Word/LibreOffice. Indispensable pour la recherche académique.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Zotero_Zotero.png",
+          "category": "Bureautique",
+          "website": "https://www.zotero.org",
+          "docs": "https://www.zotero.org/support/fr"
+        },
+        {
+          "name": "Joplin",
+          "packageId": "Laurent2010.Joplin",
+          "description": "Prise de notes open source avec chiffrement. Markdown, synchronisation (Dropbox/NextCloud/WebDAV), plugins, clipper navigateur. Alternative à Evernote.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Laurent2010_Joplin.png",
+          "category": "Bureautique",
+          "website": "https://joplinapp.org",
+          "docs": "https://joplinapp.org/fr/"
+        },
+        {
+          "name": "Logseq",
+          "packageId": "Logseq.Logseq",
+          "description": "Prise de notes knowledge-base. Markdown/Org-mode, backlinks, graphe de connaissances, journal, plugins. Pour le PKM (Personal Knowledge Management).",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Logseq_Logseq.png",
+          "category": "Bureautique",
+          "website": "https://logseq.com",
+          "docs": "https://docs.logseq.com/"
+        },
+        {
+          "name": "Simplenote",
+          "packageId": "Automattic.Simplenote",
+          "description": "Prise de notes minimaliste et rapide. Markdown, synchronisation, tagging, historique versions. Léger, sans fioritures. Par les créateurs de WordPress.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Automattic_Simplenote.png",
+          "category": "Bureautique",
+          "website": "https://simplenote.com",
+          "docs": "https://simplenote.com/"
+        },
+        {
+          "name": "Standard Notes",
+          "packageId": "StandardNotes.StandardNotes",
+          "description": "Prise de notes chiffrée. Chiffrement E2EE, extensions (Markdown, rich text, spreadsheets), synchronisation. Focus sur la sécurité et la vie privée.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/StandardNotes_StandardNotes.png",
+          "category": "Bureautique",
+          "website": "https://standardnotes.com",
+          "docs": "https://standardnotes.com/help"
+        },
+        {
+          "name": "Cryptomator",
+          "packageId": "Cryptomator.Cryptomator",
+          "description": "Chiffrement de fichiers cloud. Vault chiffré pour Dropbox/Google Drive/OneDrive, transparence totale. Open source, audité. Protège vos données cloud.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Cryptomator_Cryptomator.png",
+          "category": "Bureautique",
+          "website": "https://cryptomator.org",
+          "docs": "https://docs.cryptomator.org/"
+        },
+        {
+          "name": "OnlyOffice",
+          "packageId": "ONLYOFFICE.DesktopEditors",
+          "description": "Suite bureautique compatible MS Office. Éditeur de docs/tableaux/présentations, collaboration en temps réel. Open source, interface moderne.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/ONLYOFFICE_DesktopEditors.png",
+          "category": "Bureautique",
+          "website": "https://www.onlyoffice.com",
+          "docs": "https://helpcenter.onlyoffice.com/"
+        },
+        {
+          "name": "Apache OpenOffice",
+          "packageId": "Apache.OpenOffice",
+          "description": "Suite bureautique open source historique. Writer, Calc, Impress, Draw, Base. Compatible formats MS Office, communauté active.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Apache_OpenOffice.png",
+          "category": "Bureautique",
+          "website": "https://www.openoffice.org",
+          "docs": "https://fr.openoffice.org/"
+        },
+        {
+          "name": "FreeMind",
+          "packageId": "Freemind.Freemind",
+          "description": "Logiciel de cartes mentales open source. Création d'organigrammes, brainstorming, planification. Interface simple, export en PDF/HTML.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Freemind_Freemind.png",
+          "category": "Bureautique",
+          "website": "https://freemind.sourceforge.io",
+          "docs": "https://freemind.sourceforge.io/"
+        },
+        {
+          "name": "SiYuan",
+          "packageId": "Yuzi.SiYuan",
+          "description": "Base de connaissances open source locale. Markdown, backlinks, graphes, SQL, plugins. Alternatif à Obsidian, données 100% locales.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Yuzi_SiYuan.png",
+          "category": "Bureautique",
+          "website": "https://b3log.org/siyuan/",
+          "docs": "https://b3log.org/siyuan/"
+        },
+        {
+          "name": "Zim Desktop Wiki",
+          "packageId": "Zim.Wiki.Zim",
+          "description": "Wiki personnel de bureau. Pages interconnectées, syntaxe simple, planification, calculs,插件. Données en fichiers texte locaux. Open source.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Zim_Wiki_Zim.png",
+          "category": "Bureautique",
+          "website": "https://zim-wiki.org",
+          "docs": "https://zim-wiki.org/"
+        },
+        {
+          "name": "CryptPad",
+          "packageId": "CryptPad.CryptPad",
+          "description": "Suite collaborative chiffrée de bout en bout. Docs, tableaux, formulaires, kanban, slides. Zero knowledge, auto-hébergeable. Alternative à Google Docs.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/CryptPad_CryptPad.png",
+          "category": "Bureautique",
+          "website": "https://cryptpad.org",
+          "docs": "https://docs.cryptpad.org/"
+        },
+        {
+          "name": "HedgeDoc",
+          "packageId": "HedgeDoc.HedgeDoc",
+          "description": "Éditeur de notes collaboratives Markdown. Supports mermaid, LaTeX, présentations. Multi-utilisateurs, historique, plugins. Alternative à HackMD.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/HedgeDoc_HedgeDoc.png",
+          "category": "Bureautique",
+          "website": "https://hedgedoc.org",
+          "docs": "https://docs.hedgedoc.org/"
+        },
+        {
+          "name": "Vikunja",
+          "packageId": "Vikunja.Vikunja",
+          "description": "Gestionnaire de tâches open source. Kanban, listes, calendrier, sous-tâches, étiquettes. API REST, synchronisation, multi-utilisateurs.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Vikunja_Vikunja.png",
+          "category": "Bureautique",
+          "website": "https://vikunja.io",
+          "docs": "https://vikunja.io/docs/"
+        },
+        {
+          "name": "Invoice Ninja",
+          "packageId": "InvoiceNinja.InvoiceNinja",
+          "description": "Facturation et gestion d'entreprise open source. Factures, devis, paiements, temps passé, dépenses. Auto-hébergeable, multiples passeurs de paiement.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/InvoiceNinja_InvoiceNinja.png",
+          "category": "Bureautique",
+          "website": "https://invoiceninja.com",
+          "docs": "https://invoiceninja.github.io/"
+        },
+        {
+          "name": "Nextcloud",
+          "packageId": "Nextcloud.Nextcloud",
+          "description": "Plateforme de productivité auto-hébergeable. Fichiers, calendrier, contacts, messagerie, collaborative. Chiffré, aucun serveur tiers, plugins.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Nextcloud_Nextcloud.png",
+          "category": "Bureautique",
+          "website": "https://nextcloud.com",
+          "docs": "https://docs.nextcloud.com/"
+        },
+        {
+          "name": "WeKan",
+          "packageId": "WeKan.Wekan",
+          "description": "Tableau Kanban open source. Gestion de projets, tâches, listes, étiquettes, membres. Multi-utilisateurs, API, auto-hébergeable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/WeKan_Wekan.png",
+          "category": "Bureautique",
+          "website": "https://wekan.github.io",
+          "docs": "https://github.com/wekan/wekan/wiki"
+        },
+        {
+          "name": "Draw.io",
+          "packageId": "JGraph.Draw",
+          "description": "Logiciel de diagrammes gratuit. Diagrammes de flux, UML, réseau, wireframes. Intégration cloud ou desktop, export SVG/PNG/PDF.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/JGraph_Draw.png",
+          "category": "Bureautique",
+          "website": "https://www.drawio.com",
+          "docs": "https://www.drawio.com/doc/"
+        }
+      ]
+    },
+    {
+      "name": "Graphisme & Création",
+      "icon": "🎨",
+      "apps": [
+        {
+          "name": "GIMP",
+          "packageId": "GIMP.GIMP",
+          "description": "Éditeur d'images open source, alternative à Photoshop. Retouche photo, peinture numérique, calques, masques, filtres, scripts (Python/Script-Fu). Supporte PSD, RAW, 80+ formats. Personnalisable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/GIMP_GIMP.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.gimp.org",
+          "docs": "https://docs.gimp.org/2.10/fr/"
+        },
+        {
+          "name": "Krita",
+          "packageId": "KDE.Krita",
+          "description": "Logiciel de peinture numérique professionnel open source. 100+ brosses, pinceaux dynamiques, calques d'animation, stabilisateur, vectoriel. Spécialisé illustration, concept art, manga. Gratuit.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/KDE_Krita.png",
+          "category": "Graphisme & Création",
+          "website": "https://krita.org",
+          "docs": "https://docs.krita.org/fr/"
+        },
+        {
+          "name": "Inkscape",
+          "packageId": "Inkscape.Inkscape",
+          "description": "Éditeur de graphiques vectoriels open source, alternative à Illustrator. Création de logos, illustrations, diagrammes. Formats SVG natif, nœuds, dégradés, textes sur chemin. Puissant et gratuit.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Inkscape_Inkscape.png",
+          "category": "Graphisme & Création",
+          "website": "https://inkscape.org",
+          "docs": "https://inkscape-manuals.readthedocs.io/fr/latest/"
+        },
+        {
+          "name": "Blender",
+          "packageId": "Blender.Blender",
+          "description": "Suite 3D complète open source. Modélisation, animation, simulation, rendu Cycles/EEVEE, composition, vidéo editing. Utilisé par des studios professionnels. Gratuit, pas de watermark, pas de limite.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Blender_Blender.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.blender.org",
+          "docs": "https://docs.blender.org/manual/fr/latest/"
+        },
+        {
+          "name": "Darktable",
+          "packageId": "Darktable.Darktable",
+          "description": "Logiciel de retouche photo RAW open source, alternative à Lightroom. Développement non-destructif, étalonnage couleurs, masques locaux, export multi-formats. Supporte 600+ appareils photo.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Darktable.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.darktable.org",
+          "docs": "https://www.darktable.org/usermanual/fr/"
+        },
+        {
+          "name": "Scribus",
+          "packageId": "Scribus.Scribus",
+          "description": "Logiciel de PAO (mise en page) open source. Création de brochures, flyers, PDF interactifs. Gestion CMJN, PDF/X-3, prépresse. Alternative à InDesign.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Scribus_Scribus.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.scribus.net",
+          "docs": "https://docs.scribus.net/fr/"
+        },
+        {
+          "name": "Pencil Project",
+          "packageId": "Evolus.Pencil",
+          "description": "Outil de prototypage d'interfaces (wireframes). Stencils, export PNG/PDF/HTML, widgets UI, multiplateforme. Pour UX designers.",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pencil.png",
+          "category": "Graphisme & Création",
+          "website": "https://pencil.evolus.vn",
+          "docs": "https://pencil.evolus.vn/"
+        },
+        {
+          "name": "Pinta",
+          "packageId": "PintaProject.Pinta",
+          "description": "Éditeur d'images simple inspiré de Paint.NET. Calques, effets, outils de dessin, historique. Open source, léger, idéal pour retouches rapides.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/PintaProject_Pinta.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.pinta-project.com",
+          "docs": "https://www.pinta-project.com/"
+        },
+        {
+          "name": "FreeCAD",
+          "packageId": "FreeCAD.FreeCAD",
+          "description": "Modélisation 3D paramétrique open source. Conception mécanique, CAD/CAM/CAE, Arch. Alternative à SolidWorks, très puissant pour l'impression 3D.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/FreeCAD_FreeCAD.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.freecad.org",
+          "docs": "https://wiki.freecad.org/Fr"
+        },
+        {
+          "name": "Sweet Home 3D",
+          "packageId": "eTeks.SweetHome3D",
+          "description": "Logiciel d'aménagement intérieur gratuit. Plan 2D/3D, meubles, textures, rendu réel. Pour la décoration d'intérieur, import de modèles 3D.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/eTeks_SweetHome3D.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.sweethome3d.com",
+          "docs": "https://www.sweethome3d.com/doc/"
+        },
+        {
+          "name": "OpenToonz",
+          "packageId": "FrontOpendOpenToonz.OpenToonz",
+          "description": "Logiciel d'animation 2D utilisé par Studio Ghibli. Scan, peinture, animation, effets. Open source, très puissant pour l'animation pro.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/FrontOpendOpenToonz_OpenToonz.png",
+          "category": "Graphisme & Création",
+          "website": "https://opentoonz.github.io",
+          "docs": "https://opentoonz.github.io/"
+        },
+        {
+          "name": "Synfig Studio",
+          "packageId": "Synfig.SynfigStudio",
+          "description": "Logiciel d'animation 2D vectorielle. Animation bones, morphing, calques, effets. Alternative open source à After Effects pour animations.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Synfig_SynfigStudio.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.synfig.org",
+          "docs": "https://www.synfig.org/documentation/"
+        },
+        {
+          "name": "Natron",
+          "packageId": "Inria.Natron",
+          "description": "Compositing vidéo open source. Node-based, nodes comme Nuke, 200+ effets, rotoscoping, keying. Pour le VFX et post-production.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Inria_Natron.png",
+          "category": "Graphisme & Création",
+          "website": "https://natron.github.io",
+          "docs": "https://natron.github.io/"
+        },
+        {
+          "name": "MeshLab",
+          "packageId": "MeshLab.MeshLab",
+          "description": "Traitement et édition de maillages 3D. Nettoyage, simplification, reconstruction, coloration. Outil de référence pour l'impression 3D et la CAO.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/MeshLab_MeshLab.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.meshlab.net",
+          "docs": "https://www.meshlab.net/"
+        },
+        {
+          "name": "OpenSCAD",
+          "packageId": "OpenSCAD.OpenSCAD",
+          "description": "Modeléur 3D procédural. Créez des objets 3D via du code script. Idéal pour l'impression 3D, pièces mécaniques, modèles paramétriques.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/OpenSCAD_OpenSCAD.png",
+          "category": "Graphisme & Création",
+          "website": "https://openscad.org",
+          "docs": "https://openscad.org/documentation.html"
+        },
+        {
+          "name": "SolveSpace",
+          "packageId": "SolveSpace.SolveSpace",
+          "description": "CAD 3D paramétrique open source. Contraintes 2D/3D, extrusions, révolutions, filières. Idéal pour pièces mécaniques, impression 3D.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/SolveSpace_SolveSpace.png",
+          "category": "Graphisme & Création",
+          "website": "https://solvespace.com",
+          "docs": "https://solvespace.com/learn/"
+        },
+        {
+          "name": "MakeHuman",
+          "packageId": "MakeHuman.MakeHuman",
+          "description": "Création de personnages 3D réalistes. Modélisation paramétrique, morphologies, vêtements, animations. Pour l'animation et les jeux.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/MakeHuman_MakeHuman.png",
+          "category": "Graphisme & Création",
+          "website": "https://www.makehumancommunity.org",
+          "docs": "https://www.makehumancommunity.org/content/documentation"
+        }
+      ]
+    },
+    {
+      "name": "Sécurité & Vie Privée",
+      "icon": "🛡️",
+      "apps": [
+        {
+          "name": "Bitwarden",
+          "packageId": "Bitwarden.Bitwarden",
+          "description": "Gestionnaire de mots de passe open source et gratuit. Génération, stockage et auto-remplissage de mots de passe chiffrés AES-256. Sync multi-appareils, partage de notes sécurisées, 2FA.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Bitwarden_Bitwarden.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://bitwarden.com",
+          "docs": "https://bitwarden.com/help/fr/"
+        },
+        {
+          "name": "KeePass",
+          "packageId": "DominikReichl.KeePass",
+          "description": "Gestionnaire de mots de passe 100% local et open source. Base de données chiffrée AES-256/ChaCha20, auto-type, plugin de navigation, générateur de mots de passe. Aucun cloud, vos données restent chez vous.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/DominikReichl_KeePass.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://keepass.info",
+          "docs": "https://keepass.info/fr/"
+        },
+        {
+          "name": "ProtonVPN",
+          "packageId": "Proton.ProtonVPN",
+          "description": "VPN gratuit et sécurisé développé par Proton (Suisse). Aucune limite de données sur le plan gratuit, Secure Core, kill switch, P2P, no-logs vérifié. Open source, audité indépendamment.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Proton_ProtonVPN.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://protonvpn.com",
+          "docs": "https://protonvpn.com/fr/support/"
+        },
+        {
+          "name": "Mullvad VPN",
+          "packageId": "MullvadVPN.MullvadVPN",
+          "description": "VPN respectueux de la vie privée suédois. Pas d'email requis, paiement en espèces/crypto, no-logs. WireGuard, multi-hop, split tunneling. Audité par Cure53. Prix fixe 5€/mois.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/MullvadVPN_MullvadVPN.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://mullvad.net",
+          "docs": "https://mullvad.net/fr/help/"
+        },
+        {
+          "name": "WireGuard",
+          "packageId": "WireGuard.WireGuard",
+          "description": "Protocole VPN moderne, rapide et sécurisé. 4000 lignes de code vs 100 000+ pour OpenVPN. Chiffrement Curve25519, temps de connexion quasi-instantané, performances supérieures. Futur des VPN.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/WireGuard_WireGuard.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://www.wireguard.com",
+          "docs": "https://www.wireguard.com/fr/"
+        },
+        {
+          "name": "OpenVPN",
+          "packageId": "OpenVPNTechnologies.OpenVPN",
+          "description": "Client VPN open source le plus déployé au monde. Chiffrement SSL/TLS, authentification par certificats, tunneling UDP/TCP. Compatible avec la plupart des fournisseurs VPN, très configurable.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/OpenVPNTechnologies_OpenVPN.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://openvpn.net",
+          "docs": "https://openvpn.net/community-resources/"
+        },
+        {
+          "name": "VeraCrypt",
+          "packageId": "VeraCrypt.VeraCrypt",
+          "description": "Chiffrement de disques/partitions open source. Volumes chiffrés, plausibles deniability, multi-algorithmes (AES, Twofish, Serpent). Successeur de TrueCrypt.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/VeraCrypt_VeraCrypt.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://veracrypt.fr",
+          "docs": "https://veracrypt.fr/fr/Documentation.html"
+        },
+        {
+          "name": "Gpg4win",
+          "packageId": "GnuPG.Gpg4win",
+          "description": "Suite GPG pour Windows. Chiffrement email, signatures, gestion de clés.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/GnuPG_Gpg4win.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://www.gpg4win.org",
+          "docs": "https://www.gpg4win.org/doc/fr/gpg4win-compendium.html"
+        },
+        {
+          "name": "ClamAV",
+          "packageId": "ClamWin.ClamWin",
+          "description": "Antivirus open source. Scan à la demande, analyse de fichiers, détection de malwares. Intégration à l'explorateur, mises à jour automatiques.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/ClamWin_ClamWin.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://www.clamwin.com",
+          "docs": "https://www.clamwin.com/content/view/18/"
+        },
+        {
+          "name": "KeePassXC",
+          "packageId": "KeePassXCTeam.KeePassXC",
+          "description": "Gestionnaire de mots de passe open source. Fork de KeePass, chiffrement AES/ChaCha20, 2FA, auto-type, TOTP. Cross-platform, sans dépendance .NET.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/KeePassXCTeam_KeePassXC.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://keepassxc.org",
+          "docs": "https://keepassxc.org/docs/"
+        },
+        {
+          "name": "Wireshark",
+          "packageId": "WiresharkFoundation.Wireshark",
+          "description": "Analyseur de protocoles réseau. Capture et analyse le trafic en temps réel, décodage de 2000+ protocoles. Indispensable pour le debugging réseau.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/WiresharkFoundation_Wireshark.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://www.wireshark.org",
+          "docs": "https://www.wireshark.org/docs/"
+        },
+        {
+          "name": "Nmap",
+          "packageId": "Insecure.Nmap",
+          "description": "Scanner réseau et de ports pour administration système et audit de sécurité. Découverte d'hôtes, détection d'OS, scripts NSE.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/Insecure_Nmap.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://nmap.org",
+          "docs": "https://nmap.org/book/fr/"
+        },
+        {
+          "name": "Aircrack-ng",
+          "packageId": "AircrackNg.AircrackNg",
+          "description": "Suite d'outils d'audit de sécurité WiFi. Pour les tests de pénétration autorisés uniquement.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/AircrackNg_AircrackNg.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://www.aircrack-ng.org",
+          "docs": "https://www.aircrack-ng.org/doku.php/fr"
+        },
+        {
+          "name": "GnuPG",
+          "packageId": "GnuPG.GnuPG",
+          "description": "Implémentation OpenPGP. Chiffrement et signatures numériques.",
+          "iconUrl": "pack://application:,,,/Downiso;component/Resources/Icons/GnuPG_GnuPG.png",
+          "category": "Sécurité & Vie Privée",
+          "website": "https://gnupg.org",
+          "docs": "https://gnupg.org/documentation/"
+        }
+      ]
+    }
+  ]
+}
