@@ -20,11 +20,13 @@ Or clone:
 git clone https://github.com/fr3nchh/CustomToolbox.git
 ```
 
-### Step 2: Open the project
+### Step 2: Launch
 
-Open `src/CustomToolbox/CustomToolbox.csproj` in **Visual Studio 2022** or:
+Double-click **launch.bat** to build and run the app.
+
+Or manually:
 ```bash
-dotnet run --project src/CustomToolbox
+dotnet run --project src\CustomToolbox
 ```
 
 ### Step 3: Use it
