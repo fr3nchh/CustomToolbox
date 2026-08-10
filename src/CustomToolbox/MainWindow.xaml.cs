@@ -29,10 +29,10 @@ public partial class MainWindow : Window
 
         var tag = item.Tag?.ToString();
 
-        AppsView.Visibility = tag == "Apps" ? Visibility.Visible : Visibility.Collapsed;
-        OptimizeView.Visibility = tag == "Optimize" ? Visibility.Visible : Visibility.Collapsed;
-        CustomizeView.Visibility = tag == "Customize" ? Visibility.Visible : Visibility.Collapsed;
-        SettingsView.Visibility = tag == "Settings" ? Visibility.Visible : Visibility.Collapsed;
+        if (AppsView != null) AppsView.Visibility = tag == "Apps" ? Visibility.Visible : Visibility.Collapsed;
+        if (OptimizeView != null) OptimizeView.Visibility = tag == "Optimize" ? Visibility.Visible : Visibility.Collapsed;
+        if (CustomizeView != null) CustomizeView.Visibility = tag == "Customize" ? Visibility.Visible : Visibility.Collapsed;
+        if (SettingsView != null) SettingsView.Visibility = tag == "Settings" ? Visibility.Visible : Visibility.Collapsed;
     }
 
     private void OnTitleBar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
