@@ -11,7 +11,7 @@ Install and customize Windows with ease. A catalog of 150+ open-source apps, per
 
 ### Option 1: Download the .exe
 
-Download **Downiso.exe** from the repo root and run it. No build needed.
+Download **Downiso.exe** from the [Releases](https://github.com/fr3nchh/CustomToolbox/releases) page and run it. No build needed.
 
 ### Option 2: Build from source
 
