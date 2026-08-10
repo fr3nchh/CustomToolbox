@@ -1,61 +1,52 @@
 # Downiso
 
-Install and customize Windows with ease. A catalog of 150+ open-source apps, performance optimization, and system customization — all in one tool.
+Installer et personnaliser Windows en toute simplicité. Catalogue de 150+ apps open-source, optimisation performances, et personnalisation système — tout-en-un.
 
 ## Features
 
-- **Catalog** — 150+ open-source apps installable in one click via Winget
-- **Optimization** — UAC, telemetry, gaming performance, updates, notifications
-- **Customization** — Theme, taskbar, Start Menu, File Explorer
-- **Search** — Instant filtering by category and name
+- **Catalogue** — 150+ applications open-source installables en un clic via Winget
+- **Optimisation** — UAC, télémétrie, performances jeux, mises à jour, notifications
+- **Personnalisation** — Thème, barre des tâches, menu Démarrer, explorateur de fichiers
+- **Recherche** — Filtrage instantané par catégorie et par nom
 
 ## Quick Start
 
-### Step 1: Download
+### Step 1: Télécharger
 
-Click **Code** > **Download ZIP** and extract the archive.
+Cliquez sur **Code** > **Download ZIP** puis extrayez l'archive.
 
-Or clone:
+Ou clonez :
 ```bash
 git clone https://github.com/fr3nchh/CustomToolbox.git
 ```
 
-### Step 2: Launch
+### Step 2: Lancer
 
-Double-click **launch.bat** to build and run the app.
+Double-cliquez sur **launch.bat** pour builder et lancer l'app.
 
-Or manually:
+Ou manuellement :
 ```bash
 dotnet run --project src\CustomToolbox
 ```
 
-### Step 3: Use it
-
-- **Catalog** — Browse apps, click on an app then "Install via Winget"
-- **Optimization** — Toggle Windows settings on/off
-- **Customization** — Change theme, taskbar, etc.
-
-## Prerequisites
+## Prérequis
 
 - [Windows 10/11](https://www.microsoft.com/) (x64)
-- [.NET 8 SDK](https://dotnet.microsoft.com/) (to build)
-- [Winget](https://github.com/microsoft/winget-cli) (installed automatically)
+- [.NET 8 SDK](https://dotnet.microsoft.com/) (pour compiler)
+- [Winget](https://github.com/microsoft/winget-cli) (installé automatiquement)
 
 ## Build
 
 ```bash
-# Release
-dotnet publish src/CustomToolbox -c Release -r win-x64 --self-contained true
-
-# The .exe will be in src/CustomToolbox/bin/Release/net8.0-windows/win-x64/publish/
+dotnet publish src\CustomToolbox -c Release -r win-x64 --self-contained true
 ```
 
 ## Tech Stack
 
-- **UI**: WPF (.NET 8), XAML, Custom Dark Theme
-- **Architecture**: MVVM (Models, ViewModels, Views, Services)
-- **Package Manager**: Winget CLI
-- **Language**: C#
+- **UI** : WPF (.NET 8), XAML, Dark Theme custom
+- **Architecture** : MVVM (Models, ViewModels, Views, Services)
+- **Package Manager** : Winget CLI
+- **Langage** : C#
 
 ## Structure
 
@@ -67,7 +58,7 @@ src/CustomToolbox/
 ├── Services/        # WingetService, RegistryService, PowerShellService, IconService
 ├── Converters/      # AppIconConverter, CategoryToIconConverter...
 ├── Commands/        # RelayCommand
-└── Resources/       # apps.json (catalog), icons, styles, theme
+└── Resources/       # apps.json (catalogue), icons, styles, thème
 ```
 
 ## License
