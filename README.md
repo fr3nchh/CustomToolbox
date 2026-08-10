@@ -1,43 +1,43 @@
 # Downiso
 
-Installer et personnaliser Windows en toute simplicité. Catalogue de 150+ apps open-source, optimisation performances, et personnalisation système.
+Install and customize Windows with ease. A catalog of 150+ open-source apps, performance optimization, and system customization — all in one tool.
 
 ## Features
 
-- **Catalogue** — 150+ applications open-source installables en un clic via Winget
-- **Optimisation** — UAC, télémétrie, performances jeux, mises à jour, notifications
-- **Personnalisation** — Thème, barre des tâches, menu Démarrer, explorateur de fichiers
-- **Recherche** — Filtrage instantané par catégorie et par nom
+- **Catalog** — 150+ open-source apps installable in one click via Winget
+- **Optimization** — UAC, telemetry, gaming performance, updates, notifications
+- **Customization** — Theme, taskbar, Start Menu, File Explorer
+- **Search** — Instant filtering by category and name
 
 ## Quick Start
 
-### Step 1: Télécharger
+### Step 1: Download
 
-Cliquez sur **Code** > **Download ZIP** puis extrayez l'archive.
+Click **Code** > **Download ZIP** and extract the archive.
 
-Ou clonez :
+Or clone:
 ```bash
 git clone https://github.com/fr3nchh/CustomToolbox.git
 ```
 
-### Step 2: Ouvrir le projet
+### Step 2: Open the project
 
-Ouvrez `src/CustomToolbox/CustomToolbox.csproj` dans **Visual Studio 2022** ou :
+Open `src/CustomToolbox/CustomToolbox.csproj` in **Visual Studio 2022** or:
 ```bash
 dotnet run --project src/CustomToolbox
 ```
 
-### Step 3: Utiliser
+### Step 3: Use it
 
-- **Catalogue** — Parcourez les apps, cliquez sur une app puis "Installer via Winget"
-- **Optimisation** — Activez/désactivez les paramètres Windows
-- **Personnalisation** — Changez le thème, la barre des tâches, etc.
+- **Catalog** — Browse apps, click on an app then "Install via Winget"
+- **Optimization** — Toggle Windows settings on/off
+- **Customization** — Change theme, taskbar, etc.
 
-## Prérequis
+## Prerequisites
 
 - [Windows 10/11](https://www.microsoft.com/) (x64)
-- [.NET 8 SDK](https://dotnet.microsoft.com/) (pour compiler)
-- [Winget](https://github.com/microsoft/winget-cli) (installé automatiquement)
+- [.NET 8 SDK](https://dotnet.microsoft.com/) (to build)
+- [Winget](https://github.com/microsoft/winget-cli) (installed automatically)
 
 ## Build
 
@@ -45,15 +45,15 @@ dotnet run --project src/CustomToolbox
 # Release
 dotnet publish src/CustomToolbox -c Release -r win-x64 --self-contained true
 
-# Le .exe sera dans src/CustomToolbox/bin/Release/net8.0-windows/win-x64/publish/
+# The .exe will be in src/CustomToolbox/bin/Release/net8.0-windows/win-x64/publish/
 ```
 
-## Tech stack
+## Tech Stack
 
-- **UI** : WPF (.NET 8), XAML, Dark Theme custom
-- **Architecture** : MVVM (Models, ViewModels, Views, Services)
-- **Package Manager** : Winget CLI
-- **Langage** : C#
+- **UI**: WPF (.NET 8), XAML, Custom Dark Theme
+- **Architecture**: MVVM (Models, ViewModels, Views, Services)
+- **Package Manager**: Winget CLI
+- **Language**: C#
 
 ## Structure
 
@@ -65,7 +65,7 @@ src/CustomToolbox/
 ├── Services/        # WingetService, RegistryService, PowerShellService, IconService
 ├── Converters/      # AppIconConverter, CategoryToIconConverter...
 ├── Commands/        # RelayCommand
-└── Resources/       # apps.json (catalogue), icons, styles, thème
+└── Resources/       # apps.json (catalog), icons, styles, theme
 ```
 
 ## Author
