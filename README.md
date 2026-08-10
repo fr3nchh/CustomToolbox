@@ -68,12 +68,6 @@ src/CustomToolbox/
 └── Resources/       # apps.json (catalog), icons, styles, theme
 ```
 
-## Author
-
-Made by **fr4ncais**
-
-GitHub: [https://github.com/fr4ncais](https://github.com/fr4ncais)
-
 ## License
 
 Free project for personal use.
