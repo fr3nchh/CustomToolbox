@@ -11,28 +11,23 @@ Install and customize Windows with ease. A catalog of 150+ open-source apps, per
 
 ## Quick Start
 
-### Step 1: Download
+### Option 1: Download the .exe
 
-Click **Code** > **Download ZIP** and extract the archive.
+Download **Downiso.exe** from the repo root and run it. No build needed.
 
-Or clone:
+### Option 2: Build from source
+
+Clone and build:
 ```bash
 git clone https://github.com/fr3nchh/CustomToolbox.git
-```
-
-### Step 2: Launch
-
-Double-click **launch.bat** to build and run the app.
-
-Or manually:
-```bash
+cd CustomToolbox
 dotnet run --project src\CustomToolbox
 ```
 
-## Prerequisites
+## Prerequisites (for building from source only)
 
 - [Windows 10/11](https://www.microsoft.com/) (x64)
-- [.NET 8 SDK](https://dotnet.microsoft.com/) (to build)
+- [.NET 8 SDK](https://dotnet.microsoft.com/)
 - [Winget](https://github.com/microsoft/winget-cli) (installed automatically)
 
 ## Build
