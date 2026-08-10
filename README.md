@@ -5,8 +5,6 @@ Install and customize Windows with ease. A catalog of 150+ open-source apps, per
 ## Features
 
 - **Catalog** — 150+ open-source apps installable in one click via Winget
-- **Optimization** — UAC, telemetry, gaming performance, updates, notifications
-- **Customization** — Theme, taskbar, Start Menu, File Explorer
 - **Search** — Instant filtering by category and name
 
 ## Quick Start
